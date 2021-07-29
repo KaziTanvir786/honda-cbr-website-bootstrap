@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header, nav{
+    background-color: #264653;
+}
+h1{
+    font-size: 230%;
+}
+#heading-section{
+    padding-top: 100px;
+}
+#latest-news img{
+    padding: 5%;
+}
+.btn-header{
+    background-color: #E76F51;
+    color: white;
+    transition: 0.2s;
+}
+.btn-header:hover{
+    display: inline-block;
+    background-color: white;
+    color: #E76F51;
+    transform: scale(1.05);
+}
+.text-colored{
+    color: #E76F51;
+}
+.btn-buy-now{
+    background-color: white;
+    border: 1.5px solid #E76F51;
+    color: #E76F51;
+    border-radius: 5px;
+    padding: 12px 30px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.btn-buy-now:hover{
+    background-color: #E76F51;
+    color: white;
+}
+#clients-review img{
+    width: 149px;
+    height: 149px;
+}
+
+li{
+    padding-right: 2%;
+}
