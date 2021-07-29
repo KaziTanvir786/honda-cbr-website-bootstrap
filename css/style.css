@@ -1,18 +1,43 @@
+/* fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap');
+
+/* common styles or utilities*/
 body{
     font-family: 'Poppins', sans-serif;
-}
-header, nav{
-    background-color: #264653;
 }
 h1{
     font-size: 230%;
 }
+li{
+    padding-right: 2%;
+}
+.table i{
+    font-size: 26px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    line-height: 40px;
+}
+.text-justify{
+   text-align: justify; 
+}
+.text-xs{
+    font-size: 13px;
+}
+.text-sm{
+    font-size: 15px;
+}
+.text-colored{
+    color: #E76F51;
+}
+
+/* header section style */
+header, nav{
+    background-color: #264653;
+}
 #heading-section{
     padding-top: 100px;
-}
-#latest-news img{
-    padding: 5%;
 }
 .btn-header{
     background-color: #E76F51;
@@ -26,10 +51,12 @@ h1{
     color: #E76F51;
     transform: scale(1.05);
 }
-.text-colored{
-    color: #E76F51;
+
+/* news section style */
+#latest-news img{
+    padding: 5%;
 }
-.btn-buy-now{
+.btn-read-more{
     background-color: white;
     border: 1.5px solid #E76F51;
     color: #E76F51;
@@ -38,22 +65,13 @@ h1{
     cursor: pointer;
     transition: 0.2s;
 }
-.btn-buy-now:hover{
+.btn-read-more:hover{
     background-color: #E76F51;
     color: white;
 }
+
+/* review section style */
 #clients-review img{
     width: 149px;
     height: 149px;
-}
-
-li{
-    padding-right: 2%;
-}
-.table i{
-    font-size: 26px;
-}
-a{
-    text-decoration: none;
-    color: black;
 }
